@@ -17,8 +17,8 @@ class Todo extends PureComponent {
 
         <div className="row">
           <div className="col-md-4 col-md-offset-4 todo ">
-            <h1 className="App-title">Todo  </h1>
-            <Counter items={this.props.items}/>
+         
+            <p className="App-title">  <Counter items={this.props.items}/>, to-do.  </p>
             <NewItemForm makeNewItem={makeNewItem} />
             {this.props.items.length > 0 ?
               <ItemList items={this.props.items}

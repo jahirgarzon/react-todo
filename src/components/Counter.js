@@ -1,13 +1,12 @@
 import React from 'react'
 
 const Counter = props => {
-    console.log(props)
-    const items = props.items.reduce((a,c)=> { console. log(a) 
-        return !c.completed ? a+1 :a} ,0)
+      const items = props.items.reduce((a,c)=> !c.completed ? a+1 : a , 0)
   return (
-      <pre>
-          <strong>{items} {items===1?" item":" items"}</strong>
-      </pre>
+      <span className="counter">
+          <strong>{items} </strong>
+           {items===1?'item':'items'}
+      </span >
   )
 }
 export default Counter;
