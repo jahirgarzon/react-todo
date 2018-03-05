@@ -42,7 +42,7 @@ li {
   border: solid .05em rgb(168, 168, 168);
   border-radius: .3em;
 }
-.trash {
+.destroy {
   text-align: right;
   float: right;
   opacity:0;

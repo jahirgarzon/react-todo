@@ -7,7 +7,7 @@ class ItemList extends PureComponent {
     }
 
     clickHandler(id, e) {
-        e.target.classList.contains('delete-item') ?
+        e.target.classList.contains('destroy') ?
             this.props.methods.deleteItem(id) :
             this.props.methods.toggleItemCompleted(id)
     }

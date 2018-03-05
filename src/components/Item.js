@@ -6,7 +6,7 @@ const Item = props => {
 
     return (<li className={item.completed ? "complete" : "incomplete"}
         onClick={(e) => handleClick(item.id, e)}>{item.text}
-        <span className="glyphicon trash delete-item">&#xe020;</span>
+        <span className="glyphicon destroy ">&#xe020;</span>
      </li>)
 }
 
