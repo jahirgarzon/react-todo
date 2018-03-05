@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  height: 100px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 0em;
+}
+
+.App-title {
+  font-size: 2.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.complete {
+  opacity: .5;
+  text-decoration: line-through
+}
+.todo {
+  font-size: 1.0em;
+
+}
+li {
+  font-size: 1.3em;
+  padding:.2em 1em;
+  margin:.1em;
+  border: solid .05em rgb(168, 168, 168);
+  border-radius: .3em;
+}
+.trash {
+  text-align: right;
+  float: right;
+  opacity:0;
+}
+li:hover {
+  font-size: 1.4em;
+  cursor: pointer;
+  background-color: rgba(200, 202, 202, 0.02);
+}
+li:hover> span{
+opacity:1;
+}
+li > span:hover {
+  opacity:1;
+  color : red;
+
+}
+
+ul {
+  text-align:center;
+  
+}
